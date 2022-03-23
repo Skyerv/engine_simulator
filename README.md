@@ -1,2 +1,2 @@
-# engine_simulator
+# Engine Simulator
 Simulation of an engine.
