@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400&display=swap" rel="stylesheet">
+  <title>Engine</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon1.ico">
+</head>
+
+<body>
+
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="second_half">
+    <div>
+      <p class="title">
+        Engine Simulator.
+      </p>
+    </div>
+
+    <div id="app-cover">
+      <div class="row">
+        <div class="toggle-button-cover">
+          <div class="button-cover">
+            <div class="line_1">
+              <p class="turnon">Turn engine on/off</p>
+
+              <div class="button r" id="button-1">
+                <input type="checkbox" class="checkbox" id="chk">
+                <div class="knobs"></div>
+                <div class="layer"></div>
+              </div>
+            </div>
+            <div class="botoes">
+              <button id="btn1">Accelerate</button>
+              <button id="btn2">Break</button>
+            </div>
+            <div class="velocidade">
+              <p id="velocidade_texto">0 km/h</p>
+              <div class="velocidade_rpm">
+                <p id="velocidade_texto_rpm">0 rpm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+</body>
+<script src="motor.js"></script>
+
+</html>
